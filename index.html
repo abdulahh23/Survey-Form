@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Survey Form</h1>
+    <p style="text-align: center;"> Let us know how we can improve our website </p>
+        <span class="container"> Name:</span>
+        <input class="not" type="text" placeholder="Enter your name">
+        <br>
+        <br>
+        <span class="containerTwo">Email:</span>
+        <input type="email" class="notTwo" placeholder="Enter your Email">
+        <br>
+        <br>
+        <span class="containerThree">Age:</span>
+        <input type="date" class="notThree">
+        <br>
+        <br>
+        <span class="containerFour">Which offer best describes your current role?</span>
+        <select class="notFour">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Worker</option>
+            <option>House wife</option>
+        </select>
+        <br>
+        <br>
+        <span class="containerFive">How likely is that you would recommend our website to your friend?</span>
+        <label for="op" class="notFive">
+            <input name="vote" type="radio" id="op">Definitely
+        </label>
+        <br>
+        <label for="opTwo" class="notSix">
+            <input type="radio" name="vote" id="opTwo"> Maybe
+        </label>
+        <br>
+        <label for="opThree" class="notSeven">
+            <input type="radio" name="vote" id="opThree">Not sure
+        </label>
+        <br>
+        <br>
+        <span class="containerSix">What do you like most about us?</span>
+        <select class="notEight">
+            <option disabled selected value>Select an option</option>
+            <option>Option A</option>
+            <option>Option B</option>
+        </select>
+        <br>
+        <br>
+        <span class="containerSeven">Things that should be improve in future:</span>
+        <label for="ot" class="notNine">
+            <input type="checkbox" id="ot">Front-end Projects
+        </label>
+        <br>
+        <span class="containerEight">(Check all that apply)</span>
+        <label for="otTwo" class="notTen">
+            <input type="checkbox" id="otTwo">back-end Projects
+        </label>
+        <br>
+        <label for="otThree" class="notEleven">
+            <input type="checkbox" id="otThree">Data visualization
+        </label>
+
+</body>
+</html>

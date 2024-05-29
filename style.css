@@ -1,0 +1,110 @@
+* {
+    line-height: 25px;
+}
+
+body {
+    /* background-image: url(./petal.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed; */
+    background-color: rgb(232, 250, 247);
+}
+
+.container {
+    float: left;
+    margin-left: 40%;
+}
+
+.not {
+    float: right;
+    margin-right: 40%;
+}
+
+.containerTwo {
+    float: left;
+    margin-left: 40%;
+}
+
+.notTwo {
+    float: right;
+    margin-right: 40%;
+}
+
+.containerThree {
+    float: left;
+    margin-left: 580px;
+}
+
+.notThree {
+    float: right;
+    margin-right: 40%;
+    width: 172px;
+}
+
+.containerFour {
+    float: left;
+    margin-left: 321px;
+}
+
+.notFour {
+    float: right;
+    margin-right: 657px;
+    background-color: rgb(237, 245, 239);
+}
+
+.containerFive {
+    float: left;
+    margin-left: 168px;
+}
+
+.notFive {
+    float: right;
+    margin-right: 667px;
+}
+
+.notSix {
+    float: right;
+    margin-right: 684px;
+}
+
+.notSeven {
+    float: right;
+    margin-right: 677px;
+}
+
+.containerSix {
+    float: left;
+    margin-left: 400px;
+}
+
+.notEight {
+    float: right;
+    margin-right: 628px;
+    background-color: rgb(237, 245, 239);
+}
+
+.containerSeven {
+    float: left;
+    margin-left: 352px;
+}
+
+.containerEight {
+    float: left;
+    margin-left: 468px;
+}
+
+.notNine {
+    float: right;
+    margin-right: 612px;
+}
+
+.notTen {
+    float: right;
+    margin-right: 617px;
+}
+
+.notEleven {
+    float: right;
+    margin-right: 615px;
+}
